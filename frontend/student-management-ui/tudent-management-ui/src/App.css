@@ -6,8 +6,8 @@ html, body, #root {
 }
 
 #root {
-  max-width: none; /* Remove fixed max width */
-  text-align: left; /* Optional, so content isn’t all centered */
+  max-width: none; 
+  text-align: left;
 }
 
 
