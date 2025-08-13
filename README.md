@@ -1,4 +1,4 @@
-# Student Management System
+# Student Management System     With this project any one can understand how to connect the frontend and backend
 
 This project contains two parts:
 - **frontend/** — React application
@@ -10,8 +10,14 @@ This project contains two parts:
    cd frontend
    cd student-management-ui
    cd tudent-management-ui
+
+   
 2.npm install
+
+
 3.npm run dev
+
+
 4.Open your browser and go to the url in the cmd
 
 **Running the Backend (Spring Boot)**
@@ -21,7 +27,9 @@ Build the project using Maven or Gradle (depending on your build tool):
 
 For Maven:
 mvn clean install
+
 mvn spring-boot:run
+
 The backend will start on port 8080 by default
 
 
@@ -44,5 +52,3 @@ public class StudentController {
 **in frontend**
 at the studentService.js
 **const API_URL = "http://localhost:8080/api/students"; // Spring Boot backend URL**
-
-
