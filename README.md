@@ -43,12 +43,22 @@ To allow the React frontend (running on `http://localhost:5173`) to communicate 
 
 **in backend**
 @RestController
+
+
 @RequestMapping("/api/students")
+
+
 **@CrossOrigin(origins = "http://localhost:5173") react url**
+
+
 public class StudentController {
+
     // API endpoints here
+    
 }
 
 **in frontend**
+
 at the studentService.js
+
 **const API_URL = "http://localhost:8080/api/students"; // Spring Boot backend URL**
